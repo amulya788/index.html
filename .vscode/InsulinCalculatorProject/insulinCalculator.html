@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="insulinCalculator.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Dose it The Right Way!!!!</h1>
+    <div class="search">
+        <input type="text" id="searchtxt" placeholder="What are you craving for?????">
+    </div>
+    <br><br>
+    <div class="buttons">
+        <div class="searchb">
+            <button type="submit" id="searchbtn" class="searchbt">Search Nutrition Value</button>
+        </div>
+        <div class="carbatmeal">
+            <button type="submit" id="carbatmeal" class="searchbt">Carbohydrate Coverage at Meal</button>
+        </div>
+
+        <div class="highbs">
+            <button type="submit" id="highbs" class="searchbt">High Blood Sugar Correction Dose</button>
+        </div>
+        <div class="total">
+            <button type="submit" id="total" class="searchbt">Total Mealtime Dose</button>
+        </div>
+    </div>
+
+    <div class="con" id="cont">
+        <div class="content" id="display">
+        <!-- <h1>List</h1> -->
+    </div>
+    </div>
+    
+    
+    <div class="coverage" id="cov">
+        <!-- <h1>Carbohydrate Coverage at Meal</h1>
+<h2></h2> -->
+    </div>
+    
+
+    <div class="correction" id="corr">
+        <div class="correct" id="correctDose">
+        <h2>Enter current blood Sugar</h2>
+        <input type="text" id="currentBS">
+        <h2>Enter target blood Sugar</h2>
+        <input type="text" id="targetBS">
+        <button id="calci" class="btn">Calculate</button>
+        
+        
+    </div>
+    </div>
+<h2 id="result"></h2>   
+    
+<div class="tbloodsugar correction" id="tblsugar">
+    <!-- <div class="totalbs" id="totalmealbs">
+    <h2>Enter carbohydrate coverage at each meal</h2>
+    <input type="text" id="chatmeal">
+    <h2>Enter blood sugar correction dose</h2>
+    <input type="text" id="coatmeal"><br>
+    <button id="calctbs class="btn">Calculate</button> -->
+<h2 id="tresult"></h2> 
+   </div> 
+</div>
+   
+    
+    
+
+
+
+
+
+    <script src="insulinCalculator.js"></script>
+</body>
+
+</html>
